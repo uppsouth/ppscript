@@ -322,11 +322,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -338,12 +336,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
-
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 end
 
 Character["Right Arm"]:BreakJoints()--breaks the joints so you can customize its position
@@ -410,11 +405,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -426,11 +419,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -474,11 +465,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -490,11 +479,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -640,11 +627,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -656,11 +641,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -708,11 +691,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -724,11 +705,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -758,11 +737,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -774,11 +751,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -826,11 +801,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -842,11 +815,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -876,11 +847,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -892,11 +861,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -952,11 +919,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -968,11 +933,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -1002,11 +965,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -1018,11 +979,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -1078,11 +1037,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -1094,11 +1051,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -1128,12 +1083,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
-
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 local AO = Instance.new("AlignOrientation", i)
 
 AO.Attachment0 = att0
@@ -1144,11 +1096,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
@@ -1204,11 +1154,9 @@ AP.ReactionForceEnabled = false
 
 AP.ApplyAtCenterOfMass = true
 
-AP.MaxForce = 9999999
-
-AP.MaxVelocity = math.huge
-
-AP.Responsiveness = 1000000000000
+AP.MaxForce = 50000
+AP.MaxVelocity = 100
+AP.Responsiveness = 35
 
 local AO = Instance.new("AlignOrientation", i)
 
@@ -1220,11 +1168,9 @@ AO.ReactionTorqueEnabled = true
 
 AO.PrimaryAxisOnly = false
 
-AO.MaxTorque = 9999999
-
-AO.MaxAngularVelocity = math.huge
-
-AO.Responsiveness = 10000000000000
+AO.MaxTorque = 50000
+AO.MaxAngularVelocity = 100
+AO.Responsiveness = 35
 
 end
 
