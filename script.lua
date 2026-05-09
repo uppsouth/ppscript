@@ -1250,22 +1250,16 @@ wait(0.2)
 
 end
 
-for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
+    if v:IsA("BasePart") and v.Parent:IsA("Accessory") then
 
-if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+        game:GetService("RunService").Heartbeat:Connect(function()
+            v.AssemblyLinearVelocity = Vector3.zero
+            v.AssemblyAngularVelocity = Vector3.zero
+        end)
 
-game:GetService("RunService").Heartbeat:connect(function()
-
-v.Velocity = Vector3.new(0,0,0)
-
-wait(0.5)
-
-end)
-
+    end
 end
-
-end
-
 	end)
 
 end
