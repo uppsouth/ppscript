@@ -1253,6 +1253,9 @@ end
 for _,v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
     if v:IsA("BasePart") and v.Parent:IsA("Accessory") then
 
+        v.CanCollide = false
+        v.Massless = true
+
         game:GetService("RunService").Heartbeat:Connect(function()
             v.AssemblyLinearVelocity = Vector3.zero
             v.AssemblyAngularVelocity = Vector3.zero
